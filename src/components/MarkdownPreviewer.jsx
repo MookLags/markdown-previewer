@@ -31,7 +31,8 @@ const MarkdownPreviewer = ({text}) => {
           flexDirection: "column",
           width: "100%",
           height: "100%",
-          textAlign: "left"
+          textAlign: "left",
+          padding: "12px"
         }}
         dangerouslySetInnerHTML={{
           __html: marked(text, { renderer})
